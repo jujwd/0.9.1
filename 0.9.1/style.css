@@ -1,0 +1,52 @@
+html, body {
+  height: 100%;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%
+}
+.modal {
+border-radius: 10px;
+width: 500px;
+height: fit-content;
+position: relative;
+}
+.fechar {
+display: flex;
+allign-items: center;
+position: absolute;
+right: -10px;
+top: -12px;
+}
+.close {
+border: none;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 2px solid #1E90FF;
+border-radius: 20px;
+height: 30px;
+}
+.close:hover {
+border-color:	#0000FF;
+}
+nav {
+border: 1px solid black;
+padding: 20px;
+}
+
+h1 {
+margin: 0;
+font-size: 35px;
+}
+
+.botoes {
+display: flex;
+justify-content: space-between;
+}
+
+.botoes > button:nth-child(2) {
+width: 200px;
+}
